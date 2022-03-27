@@ -4,7 +4,7 @@
 I have 3 cats. Their names are Narla (9 years), Mila and Milo (1 year). Mila and Milo are siblings. They are all inseparable. 
 Narla and Milo are both black and Mila is brown. Mila and Milo are british shorthair cats.
 
-![Tails](/media/Tails.png)
+![Tails](media/Tails.png)
 
 ## What do my cats eat?
 * Dreamies
@@ -46,11 +46,11 @@ You can check out the website <https://www.zooplus.at> if you like!
 
 ## How do they look like?
 This is Narla.
-![Narla](/media/Narla.png)
+![Narla](media/Narla.png)
 
 This is Mila.
-![Mila](/media/Mila.png) 
+![Mila](media/Mila.png) 
 
 This is Milo!
-![Milo](/media/Milo.png)
+![Milo](media/Milo.png)
 
