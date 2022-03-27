@@ -51,6 +51,6 @@ This is Narla.
 This is Mila.
 ![Mila](Mila.png) 
 
-This is Milo. 
+This is Milo!
 ![Milo](Milo.png)
 
