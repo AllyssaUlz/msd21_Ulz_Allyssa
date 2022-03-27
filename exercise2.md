@@ -17,7 +17,6 @@ This command lets you select a file (or more) and moves this file to the staging
 
 ## git log
 This command shows you the list of commits that were made.
-For example [Log](/media/log.png)
 
 ## git diff
 This command shows you the changes that were made on a file. It takes two input data sets and then outputes the changes between these two. 
