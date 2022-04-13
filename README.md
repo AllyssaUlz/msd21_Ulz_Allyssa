@@ -40,7 +40,12 @@ Good Luck!
 
 ## Exercise files
 * Exercise1 - [File1](exercise1.md)
-* Exercise2
-* ...
+* Exercise2 - [File2](exercise2.md)
+* Exercise3 - [File3](excerise3.md)
+
+## Links
+
+[FH JOANNEUM](https://www.fh-joanneum.at/mobile-software-development/bachelor/)
+[GitHub](https://github.com/AllyssaUlz/msd21_Ulz_Allyssa.git)
 
 
