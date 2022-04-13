@@ -1,10 +1,10 @@
 # Exercise3
 
-##Arbeitsschritte
+## Arbeitsschritte
 
-*Umgebungsvariable festgelegt
-*Calculator Klasse und Main Klasse erstellt und im Package gespeichert
-*Nach der ersten Ausführung wurde ein Target Ordner erstellt
+* Umgebungsvariable festgelegt
+* Calculator Klasse und Main Klasse erstellt und im Package gespeichert
+* Nach der ersten Ausführung wurde ein Target Ordner erstellt
 
 ![Target](target/images/target.png)
 
