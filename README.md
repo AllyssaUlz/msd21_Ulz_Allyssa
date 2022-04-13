@@ -41,7 +41,7 @@ Good Luck!
 ## Exercise files
 * Exercise1 - [File1](exercise1.md)
 * Exercise2 - [File2](exercise2.md)
-* Exercise3 - [File3](excerise3.md)
+* Exercise3 - [File3](exerise3.md)
 
 ## Links
 
