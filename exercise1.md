@@ -46,11 +46,11 @@ You can check out the website <https://www.zooplus.at> if you like!
 
 ## How do they look like?
 This is Narla.
-![Narla](Narla.png)
+![Narla](target/images/Narla.png)
 
 This is Mila.
-![Mila](Mila.png) 
+![Mila](target/images/Mila.png) 
 
 This is Milo!
-![Milo](Milo.png)
+![Milo](target/images/Milo.png)
 
