@@ -1,3 +1,8 @@
+/* Exercise04_Konfig
+ * Calculates 2 numbers with each other + faculty method
+ * Author:      Allyssa Ulz 11929029
+ * Last Change: 04.05.2022
+ */
 package at.fhj.msd;
 
 public class Calculator {
@@ -23,4 +28,17 @@ public class Calculator {
         return result;
     }
 
+
+    public int fac(int num){
+        if (num < 1) {
+            return 0;
+        }
+        int value = 1;
+        for (int i = 2; i <= num; i++) {
+            value = value * i;
+        }
+        return value;
+    }
 }
+
+

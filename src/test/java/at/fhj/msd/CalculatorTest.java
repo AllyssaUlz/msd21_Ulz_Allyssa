@@ -1,3 +1,9 @@
+/* Exercise04_Konfig
+ * Testcases for Class Calculator
+ * Author:      Allyssa Ulz 11929029
+ * Last Change: 04.05.2022
+ */
+
 package at.fhj.msd;
 
 import org.junit.jupiter.api.Assertions;
@@ -58,6 +64,24 @@ public class CalculatorTest {
     public void calcDiv2(){
         Assertions.assertEquals(4, calc.divide(12,3));
     }
+
+
+    @Test
+    public void faculty1(){
+        Assertions.assertEquals(0, calc.fac(-5));
+    }
+
+
+    @Test
+    public void faculty2(){
+        Assertions.assertEquals(720, calc.fac(6));
+    }
+
+    @Test
+    public void faculty3(){
+        Assertions.assertEquals(40320, calc.fac(8));
+    }
+
 
 
 }
