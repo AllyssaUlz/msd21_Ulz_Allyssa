@@ -15,3 +15,8 @@ Therefore I used different numbers and checked if the expected result is the sam
 * Testcase calcDiv1
 * Testcase calcDiv2
 
+## Screenshots
+
+![Test](resources/images/ex4_1.png)
+![Errors](resources/images/ex4_2.png)
+
