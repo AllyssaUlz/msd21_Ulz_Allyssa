@@ -1,7 +1,8 @@
 *.html
 *.pdf
 .idea
-target
+target/
 .log
-log4js.xml
+logs
+log4j2.xml
 
