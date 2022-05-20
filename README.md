@@ -43,8 +43,11 @@ Good Luck!
 * Exercise2 - [File2](exercise2.md)
 * Exercise3 - [File3](exercise3.md)
 * Exercise4 - [File4](exercise4.md)
+* Exercise5 - [File5](exercise5.md)
 
-## Links
+## Links and Template
+
+* Template - [Template](src/main/resources/log4j2.xml.template)
 
 [FH JOANNEUM](https://www.fh-joanneum.at/mobile-software-development/bachelor/)
 [GitHub](https://github.com/AllyssaUlz/msd21_Ulz_Allyssa.git)
