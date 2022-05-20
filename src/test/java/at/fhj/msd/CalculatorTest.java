@@ -1,7 +1,7 @@
 /* Exercise04_Konfig
  * Testcases for Class Calculator
  * Author:      Allyssa Ulz 11929029
- * Last Change: 04.05.2022
+ * Last Change: 18.05.2022
  */
 
 package at.fhj.msd;
@@ -63,6 +63,11 @@ public class CalculatorTest {
     @Test
     public void calcDiv2() {
         Assertions.assertEquals(12 / 3, calc.divide(12, 3));
+    }
+
+    @Test
+    void exceptionTest() {
+        Assertions.assertThrows(ArithmeticException.class,() -> calc.divide(2,0));
     }
 
     @Test
