@@ -44,6 +44,7 @@ Good Luck!
 * Exercise3 - [File3](exercise3.md)
 * Exercise4 - [File4](exercise4.md)
 * Exercise5 - [File5](exercise5.md)
+* Exercise6 - [File6](exercise6.md)
 
 ## Links and Template
 

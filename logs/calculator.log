@@ -20,3 +20,12 @@
 2022:05:20 - 20:46:40.399 [main] DEBUG at.fhj.msd.Calculator - Parameter is 8!
 2022:05:20 - 20:46:40.404 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 8.0minus 2.0
 2022:05:20 - 20:46:40.411 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 5.0multiplied with 4.0
+2022:05:27 - 18:05:22.998 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 3.0plus 2.0
+2022:05:27 - 18:05:23.011 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 12.0divided by 3.0
+2022:05:27 - 18:05:23.020 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 2.0divided by 0.0
+2022:05:27 - 18:05:23.022 [main] ERROR at.fhj.msd.Calculator - 0.0 is not allowed to be 0
+2022:05:27 - 18:05:23.025 [main] DEBUG at.fhj.msd.Calculator - Parameter is -5!
+2022:05:27 - 18:05:23.030 [main] DEBUG at.fhj.msd.Calculator - Parameter is 6!
+2022:05:27 - 18:05:23.033 [main] DEBUG at.fhj.msd.Calculator - Parameter is 8!
+2022:05:27 - 18:05:23.038 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 8.0minus 2.0
+2022:05:27 - 18:05:23.052 [main] DEBUG at.fhj.msd.Calculator - The parameters are: 5.0multiplied with 4.0

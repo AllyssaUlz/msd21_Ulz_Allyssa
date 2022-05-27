@@ -1,63 +1,70 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="0" failures="0" name="at.fhj.msd.CalculatorTest" time="0" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="at.fhj.msd.CalculatorTest" time="1.189" tests="12" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
-    <property name="java.vm.version" value="17+35-2724"/>
-    <property name="sun.boot.library.path" value="/Users/allyssaulz/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa"/>
-    <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="path.separator" value=":"/>
-    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
-    <property name="user.country" value="AT"/>
-    <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa"/>
-    <property name="java.vm.compressedOopsMode" value="Zero based"/>
-    <property name="java.runtime.version" value="17+35-2724"/>
-    <property name="os.arch" value="x86_64"/>
-    <property name="java.io.tmpdir" value="/var/folders/mv/5w4l675j0d177mqplxkffb7m0000gn/T/"/>
-    <property name="line.separator" value="
-"/>
-    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Applications/apache-maven-3.8.5/bin/m2.conf"/>
-    <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/Users/allyssaulz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
-    <property name="maven.conf" value="/Applications/apache-maven-3.8.5/conf"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="61.0"/>
-    <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="os.version" value="12.3.1"/>
-    <property name="library.jansi.path" value="/Applications/apache-maven-3.8.5/lib/jansi-native"/>
-    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
-    <property name="user.home" value="/Users/allyssaulz"/>
-    <property name="user.timezone" value="Europe/Vienna"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="17"/>
-    <property name="user.name" value="allyssaulz"/>
-    <property name="java.class.path" value="/Applications/apache-maven-3.8.5/boot/plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/test-classes:/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/classes:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/allyssaulz/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/allyssaulz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/allyssaulz/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
-    <property name="java.home" value="/Users/allyssaulz/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Vienna"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="AT"/>
+    <property name="sun.boot.library.path" value="/Users/allyssaulz/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/surefire/surefirebooter10869908251651855838.jar /Users/allyssaulz/git/msd21_Ulz_Allyssa/target/surefire 2022-05-27T18-05-13_430-jvmRun1 surefire2240979124322107192tmp surefire_017594397821056865173tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/test-classes:/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/classes:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/allyssaulz/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/allyssaulz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/allyssaulz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/allyssaulz/.m2/repository/org/apache/logging/log4j/log4j-api/2.17.2/log4j-api-2.17.2.jar:/Users/allyssaulz/.m2/repository/org/apache/logging/log4j/log4j-core/2.17.2/log4j-core-2.17.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/allyssaulz"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="17"/>
-    <property name="native.encoding" value="UTF-8"/>
-    <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="UTF-8"/>
-    <property name="maven.home" value="/Applications/apache-maven-3.8.5"/>
-    <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2021-09-14"/>
-    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
-    <property name="sun.cpu.endian" value="little"/>
-    <property name="sun.stdout.encoding" value="UTF-8"/>
-    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.home" value="/Users/allyssaulz/Library/Java/JavaVirtualMachines/openjdk-17/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa/target/surefire/surefirebooter10869908251651855838.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17+35-2724"/>
+    <property name="user.name" value="allyssaulz"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/allyssaulz/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/mv/5w4l675j0d177mqplxkffb7m0000gn/T/"/>
+    <property name="java.version" value="17"/>
+    <property name="user.dir" value="/Users/allyssaulz/git/msd21_Ulz_Allyssa"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/allyssaulz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17+35-2724"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
+  <testcase name="calcAdd1" classname="at.fhj.msd.CalculatorTest" time="1.066"/>
+  <testcase name="calcAdd2" classname="at.fhj.msd.CalculatorTest" time="0.015"/>
+  <testcase name="calcDiv1" classname="at.fhj.msd.CalculatorTest" time="0.001"/>
+  <testcase name="calcDiv2" classname="at.fhj.msd.CalculatorTest" time="0.002"/>
+  <testcase name="exceptionTest" classname="at.fhj.msd.CalculatorTest" time="0.009"/>
+  <testcase name="faculty1" classname="at.fhj.msd.CalculatorTest" time="0.002"/>
+  <testcase name="faculty2" classname="at.fhj.msd.CalculatorTest" time="0.003"/>
+  <testcase name="faculty3" classname="at.fhj.msd.CalculatorTest" time="0.001"/>
+  <testcase name="calcMinus1" classname="at.fhj.msd.CalculatorTest" time="0.001"/>
+  <testcase name="calcMinus2" classname="at.fhj.msd.CalculatorTest" time="0.001"/>
+  <testcase name="calcMulti1" classname="at.fhj.msd.CalculatorTest" time="0.002"/>
+  <testcase name="calcMulti2" classname="at.fhj.msd.CalculatorTest" time="0.003"/>
 </testsuite>
